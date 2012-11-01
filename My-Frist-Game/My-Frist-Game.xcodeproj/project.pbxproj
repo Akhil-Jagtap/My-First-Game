@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0455F70416425DFF00C9AE63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455F70316425DFF00C9AE63 /* UIKit.framework */; };
+		0455F70616425DFF00C9AE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455F70516425DFF00C9AE63 /* Foundation.framework */; };
+		0455F70816425DFF00C9AE63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0455F70716425DFF00C9AE63 /* CoreGraphics.framework */; };
+		0455F70E16425DFF00C9AE63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0455F70C16425DFF00C9AE63 /* InfoPlist.strings */; };
+		0455F71016425DFF00C9AE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70F16425DFF00C9AE63 /* main.m */; };
+		0455F71416425DFF00C9AE63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71316425DFF00C9AE63 /* AppDelegate.m */; };
+		0455F71716425DFF00C9AE63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71616425DFF00C9AE63 /* ViewController.m */; };
+		0455F71A16425DFF00C9AE63 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455F71816425DFF00C9AE63 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0455F6FF16425DFF00C9AE63 /* My-Frist-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-Frist-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0455F70316425DFF00C9AE63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0455F70516425DFF00C9AE63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0455F70716425DFF00C9AE63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0455F70B16425DFF00C9AE63 /* My-Frist-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My-Frist-Game-Info.plist"; sourceTree = "<group>"; };
+		0455F70D16425DFF00C9AE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0455F70F16425DFF00C9AE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0455F71116425DFF00C9AE63 /* My-Frist-Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My-Frist-Game-Prefix.pch"; sourceTree = "<group>"; };
+		0455F71216425DFF00C9AE63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0455F71316425DFF00C9AE63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0455F71516425DFF00C9AE63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0455F71616425DFF00C9AE63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0455F71916425DFF00C9AE63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0455F6FC16425DFF00C9AE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455F70416425DFF00C9AE63 /* UIKit.framework in Frameworks */,
+				0455F70616425DFF00C9AE63 /* Foundation.framework in Frameworks */,
+				0455F70816425DFF00C9AE63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0455F6F416425DFF00C9AE63 = {
+			isa = PBXGroup;
+			children = (
+				0455F70916425DFF00C9AE63 /* My-Frist-Game */,
+				0455F70216425DFF00C9AE63 /* Frameworks */,
+				0455F70016425DFF00C9AE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0455F70016425DFF00C9AE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6FF16425DFF00C9AE63 /* My-Frist-Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0455F70216425DFF00C9AE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0455F70316425DFF00C9AE63 /* UIKit.framework */,
+				0455F70516425DFF00C9AE63 /* Foundation.framework */,
+				0455F70716425DFF00C9AE63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0455F70916425DFF00C9AE63 /* My-Frist-Game */ = {
+			isa = PBXGroup;
+			children = (
+				0455F71216425DFF00C9AE63 /* AppDelegate.h */,
+				0455F71316425DFF00C9AE63 /* AppDelegate.m */,
+				0455F71516425DFF00C9AE63 /* ViewController.h */,
+				0455F71616425DFF00C9AE63 /* ViewController.m */,
+				0455F71816425DFF00C9AE63 /* ViewController.xib */,
+				0455F70A16425DFF00C9AE63 /* Supporting Files */,
+			);
+			path = "My-Frist-Game";
+			sourceTree = "<group>";
+		};
+		0455F70A16425DFF00C9AE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0455F70B16425DFF00C9AE63 /* My-Frist-Game-Info.plist */,
+				0455F70C16425DFF00C9AE63 /* InfoPlist.strings */,
+				0455F70F16425DFF00C9AE63 /* main.m */,
+				0455F71116425DFF00C9AE63 /* My-Frist-Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0455F6FE16425DFF00C9AE63 /* My-Frist-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0455F71D16425DFF00C9AE63 /* Build configuration list for PBXNativeTarget "My-Frist-Game" */;
+			buildPhases = (
+				0455F6FB16425DFF00C9AE63 /* Sources */,
+				0455F6FC16425DFF00C9AE63 /* Frameworks */,
+				0455F6FD16425DFF00C9AE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My-Frist-Game";
+			productName = "My-Frist-Game";
+			productReference = 0455F6FF16425DFF00C9AE63 /* My-Frist-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0455F6F616425DFF00C9AE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0455F6F916425DFF00C9AE63 /* Build configuration list for PBXProject "My-Frist-Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0455F6F416425DFF00C9AE63;
+			productRefGroup = 0455F70016425DFF00C9AE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0455F6FE16425DFF00C9AE63 /* My-Frist-Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0455F6FD16425DFF00C9AE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455F70E16425DFF00C9AE63 /* InfoPlist.strings in Resources */,
+				0455F71A16425DFF00C9AE63 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0455F6FB16425DFF00C9AE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0455F71016425DFF00C9AE63 /* main.m in Sources */,
+				0455F71416425DFF00C9AE63 /* AppDelegate.m in Sources */,
+				0455F71716425DFF00C9AE63 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0455F70C16425DFF00C9AE63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0455F70D16425DFF00C9AE63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0455F71816425DFF00C9AE63 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0455F71916425DFF00C9AE63 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0455F71B16425DFF00C9AE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0455F71C16425DFF00C9AE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0455F71E16425DFF00C9AE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My-Frist-Game/My-Frist-Game-Prefix.pch";
+				INFOPLIST_FILE = "My-Frist-Game/My-Frist-Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0455F71F16425DFF00C9AE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My-Frist-Game/My-Frist-Game-Prefix.pch";
+				INFOPLIST_FILE = "My-Frist-Game/My-Frist-Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0455F6F916425DFF00C9AE63 /* Build configuration list for PBXProject "My-Frist-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0455F71B16425DFF00C9AE63 /* Debug */,
+				0455F71C16425DFF00C9AE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0455F71D16425DFF00C9AE63 /* Build configuration list for PBXNativeTarget "My-Frist-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0455F71E16425DFF00C9AE63 /* Debug */,
+				0455F71F16425DFF00C9AE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0455F6F616425DFF00C9AE63 /* Project object */;
+}
